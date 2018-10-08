@@ -1,0 +1,11 @@
+/Users/MikeG/workspace4class/practiceshit/LE/c#/bookexercise/bin/Debug/netcoreapp2.1/bookexercise.deps.json
+/Users/MikeG/workspace4class/practiceshit/LE/c#/bookexercise/bin/Debug/netcoreapp2.1/bookexercise.runtimeconfig.json
+/Users/MikeG/workspace4class/practiceshit/LE/c#/bookexercise/bin/Debug/netcoreapp2.1/bookexercise.runtimeconfig.dev.json
+/Users/MikeG/workspace4class/practiceshit/LE/c#/bookexercise/bin/Debug/netcoreapp2.1/bookexercise.dll
+/Users/MikeG/workspace4class/practiceshit/LE/c#/bookexercise/bin/Debug/netcoreapp2.1/bookexercise.pdb
+/Users/MikeG/workspace4class/practiceshit/LE/c#/bookexercise/obj/Debug/netcoreapp2.1/bookexercise.csprojAssemblyReference.cache
+/Users/MikeG/workspace4class/practiceshit/LE/c#/bookexercise/obj/Debug/netcoreapp2.1/bookexercise.csproj.CoreCompileInputs.cache
+/Users/MikeG/workspace4class/practiceshit/LE/c#/bookexercise/obj/Debug/netcoreapp2.1/bookexercise.AssemblyInfoInputs.cache
+/Users/MikeG/workspace4class/practiceshit/LE/c#/bookexercise/obj/Debug/netcoreapp2.1/bookexercise.AssemblyInfo.cs
+/Users/MikeG/workspace4class/practiceshit/LE/c#/bookexercise/obj/Debug/netcoreapp2.1/bookexercise.dll
+/Users/MikeG/workspace4class/practiceshit/LE/c#/bookexercise/obj/Debug/netcoreapp2.1/bookexercise.pdb

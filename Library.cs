@@ -22,20 +22,25 @@ namespace bookexercise {
         // Method to checkout books
         public void Checkout (string isbn, CardHolder cardHolder) {
             // Create a var to hold the books you want to check out
-            Book findBook;
+            Book findBook = new Book ();
+            // bool
             bool didFindBook = false;
             // Loop over books in book list
             foreach (Book book in _bookList) {
-                // If book id matches, add to books to checkout
-                if (book.ISBN == isbn) {
-                    findBook = book;
-
+                // If book id matches, and is available, add to books to checkout
+                if (book.ISBN == isbn && book.isAvailable) {
+                    cardHolder.CheckoutBook (findBook);
+                    book.isAvailable = false;
                 }
             }
-            if(didFindBook){
-            cardHolder.CheckoutBook (findBook);
-            findBook.isCheckedOut = true;
+        }
+        public bool isAvailable(string isbn) {
+            foreach(Book book in _bookList){
+                if(book.ISBN == isbn){
+                    return book.isAvailable;
+                }
             }
+            return false;
         }
     };
 }

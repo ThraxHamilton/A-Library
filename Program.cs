@@ -29,7 +29,8 @@ namespace bookexercise {
             Book book1 = new Book () {
                 Title = "book1",
                 Author = "Dez N`uts",
-                ISBN = "00000000"
+                ISBN = "2B",
+                // isAvailable = false
             };
             // For constructor. When constructed, all books in this list get put in the initial library
             List<Book> books = new List<Book>(){
@@ -45,6 +46,15 @@ namespace bookexercise {
             library.AddBooks (Goosebumps);
             library.AddBooks (ShookOne);
             library.AddBooks (Playboy);
+
+            // 2B ref to isbn for book1
+            if(library.isAvailable("2B")){
+                Console.WriteLine("2B is available");
+
+            }
+            else {
+                Console.WriteLine("2B isn't available");
+            }
         }
     }
 }
